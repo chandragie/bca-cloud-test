@@ -6,7 +6,7 @@ RUN yum install git -y
 
 ### DOWNLOAD FROM GIT 
 
-RUN git clone -b Dockerfile https://github.com/chandragie/bca-cloud-test.git /tmp/apps
+RUN git clone -b main https://github.com/chandragie/bca-cloud-test.git /tmp/apps
 
 ### COPY TO DEPLOYMENT
 
