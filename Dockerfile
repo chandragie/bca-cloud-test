@@ -10,7 +10,7 @@ RUN git clone -b main https://github.com/chandragie/bca-cloud-test.git /tmp/apps
 
 ### COPY TO DEPLOYMENT
 
-RUN cp /tmp/apps/mono.war $JBOSS_HOME/standalone/deployments/ROOT.war
+RUN cp /tmp/apps/mono.war $JBOSS_HOME/standalone/deployments/mycore-svc-int.war
 
 ### ORACLE DB DRIVER 
 
