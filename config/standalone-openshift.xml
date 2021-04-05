@@ -156,6 +156,7 @@
                     </driver>
 					<driver name="postgresql" module="org.postgresql">
 						<xa-datasource-class>org.postgresql.xa.PGXADataSource</xa-datasource-class>
+						<driver-class>org.postgresql.Driver</driver-class>
 					</driver>
                 </drivers>
             </datasources>
